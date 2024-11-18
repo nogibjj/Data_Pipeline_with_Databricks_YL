@@ -1,7 +1,6 @@
 """
 Test databricks fucntionaility
 """
-
 import requests
 from dotenv import load_dotenv
 import os
@@ -10,7 +9,7 @@ import os
 load_dotenv()
 server_h = os.getenv("SERVER_HOSTNAME")
 access_token = os.getenv("ACCESS_TOKEN")
-FILESTORE_PATH = "dbfs:/FileStore/tinayiluo_Databricks_ETL_Pipeline"
+FILESTORE_PATH = "dbfs:/FileStore/Databricks_ETL_Pipeline_YL"
 url = f"https://{server_h}/api/2.0"
 
 
