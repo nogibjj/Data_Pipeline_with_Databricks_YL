@@ -47,4 +47,5 @@ def load(
 
 
 if __name__ == "__main__":
-    load()
+    result = load()
+    print(result)
