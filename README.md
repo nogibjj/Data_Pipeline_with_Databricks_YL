@@ -51,7 +51,7 @@ matplotlib
 ```
 ### Usage and Functionality 
 
-`mian.py`: imports functions from three different modules: `extract` from the `mylib.extract` module, `load` from the `mylib.transform_load` module, and both `query_transform` and `viz` from the `mylib.query_viz` module. 
+`main.py`: imports functions from three different modules: `extract` from the `mylib.extract` module, `load` from the `mylib.transform_load` module, and both `query_transform` and `viz` from the `mylib.query_viz` module. 
 
 (1) Data Extraction `mylib/extract.py`:
 
@@ -118,6 +118,7 @@ matplotlib
 ### Automated Trigger to Initiate Pipeline via Github Push:*
 
 `run_job.py`: utilize the Databricks API to run a job on the Databricks workspace such that when a user pushes to this repo it will initiate a job run
+- find your JOB_ID in the workflows/job you just created and save it in the `.env` file
 
 ### Automation and GitHub Actions
 
@@ -131,24 +132,6 @@ matplotlib
 
 + Query and Viz Task: `mylib/query_viz.py`
 
-<img width="738" alt="Screen Shot 2023-11-11 at 10 51 57 PM" src="https://github.com/nogibjj/tinayiluo_Databricks_ETL_Pipeline/assets/143360909/beedd84c-511b-4b31-aa43-2b5331c54563">
-
-<img width="885" alt="Screen Shot 2023-11-12 at 6 40 08 PM" src="https://github.com/nogibjj/tinayiluo_Databricks_ETL_Pipeline/assets/143360909/1ef4d993-2a75-4756-8c98-9186348b0b54">
-
-<img width="1224" alt="Screen Shot 2023-11-11 at 10 51 22 PM" src="https://github.com/nogibjj/tinayiluo_Databricks_ETL_Pipeline/assets/143360909/92264b0c-34ad-402f-adaa-7846f93d5fc3">
-
-
-### References 
-
-https://github.com/nogibjj/python-ruff-template
-
-https://hypercodelab.com/docs/spark/databricks-platform/global-env-variables
-
-https://docs.databricks.com/en/dbfs/filestore.html
-
-https://learn.microsoft.com/en-us/azure/databricks/delta/
-
-https://learn.microsoft.com/en-us/training/paths/data-engineer-azure-databricks/
-
-https://docs.databricks.com/en/getting-started/data-pipeline-get-started.html
-
+![alt text](image.png)
+![alt text](image-2.png)
+![alt text](image-3.png)

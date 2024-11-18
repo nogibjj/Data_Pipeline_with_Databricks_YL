@@ -8,7 +8,7 @@ from pyspark.sql.functions import monotonically_increasing_id
 
 
 def load(
-    dataset="dbfs:/FileStore/tinayiluo_Databricks_ETL_Pipeline/airline-safety.csv",
+    dataset="dbfs:/FileStore/Databricks_ETL_Pipeline_YL/airline-safety.csv",
 ):
     spark = SparkSession.builder.appName("Read CSV").getOrCreate()
     # load csv and transform it by inferring schema
@@ -51,4 +51,6 @@ def load(
     return "finished transform and load"
 
 
-load()
+if __name__ == "__main__":
+    result = load()
+    print(result)
