@@ -1,3 +1,5 @@
+[![CI](https://github.com/nogibjj/Data_Pipeline_with_Databricks_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Data_Pipeline_with_Databricks_YL/actions/workflows/cicd.yml)
+
 # Data_Pipeline_with_Databricks_YL
 
 ### Introduction 
