@@ -93,10 +93,6 @@ def extract(
     file_path=FILESTORE_PATH + "/airline-safety.csv",
     directory=FILESTORE_PATH,
     overwrite=True,
-    url="""https://github.com/fivethirtyeight/data/blob/master/airline-safety/airline-safety.csv?raw=true""",
-    file_path=FILESTORE_PATH + "/airline-safety.csv",
-    directory=FILESTORE_PATH,
-    overwrite=True,
 ):
     """Extract a url to a file path"""
     # Make the directory, no need to check if it exists or not
@@ -107,7 +103,5 @@ def extract(
     return file_path
 
 
-
 if __name__ == "__main__":
     extract()
-
